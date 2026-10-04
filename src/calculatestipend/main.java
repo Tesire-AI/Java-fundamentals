@@ -35,10 +35,10 @@ public class main {
 
         }
 double total=0;
-    double stipend= 
-    System.out.print(students[i].getfirstname()+students[i].getlastname()+"gets "+ stipend+ "\n $");
+    double stipend= students.
+    System.out.print(students.getfirstname()+students.getlastname()+"gets "+ stipend+ "\n $");
     total= total + stipend;
 }
     System.out.println("TOTAL: $"+total);
     }
-}
+
