@@ -4,6 +4,7 @@ public class main {
 
         Scanner input= new Scanner(System.in);
         String answer= "yes";
+         Student student = null;
         while(answer== "yes"){
             System.out.print("\n Select category");
             System.out.println("1. Undergraguate Student");
@@ -15,7 +16,7 @@ public class main {
             System.out.println("Enter your last name");
             String lastname= input.next();
 
-            Student student= new Student(firstname, lastname);
+           
 
             switch (choice) {
                 case 1:
@@ -35,10 +36,11 @@ public class main {
 
         }
 double total=0;
-    double stipend= students.
-    System.out.print(students.getfirstname()+students.getlastname()+"gets "+ stipend+ "\n $");
+    double stipend= student.calculatestipend();
+    System.out.print(student.getfirstname()+student.getlastname()+"gets "+ stipend+ "\n $");
     total= total + stipend;
-}
+
     System.out.println("TOTAL: $"+total);
     }
+}
 
