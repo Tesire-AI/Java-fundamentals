@@ -1,7 +1,6 @@
 package LibrarySystem;
 
-    public class Book extends Member{
-    super(name, type, ID, grade, book);
+    public class Book {
     private String bookname;
     private String bookID;
     private String bookauthor;
@@ -32,9 +31,5 @@ package LibrarySystem;
     @Override 
     public String toString(){
     return "Member [name=" + getbookname() +  ", ID=" + getbookID() +", book author=" + getbookauthor() + "]";
-    }
-    @Override 
-    public double CalculateFees(){
-        return 0;
     }
 }
